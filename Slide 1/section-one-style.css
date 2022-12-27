@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+.twoColumnLayout{
+     background-color: white;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 600;
+     display: flex;
+     
+     color: white;
+     min-height: 450px;
+     
+
+    }
+.heading{
+    font-size: 25px;
+}
+.leftColumn{
+    width: 50%;
+    background-color: #0C3B2E;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+.content{
+    margin-bottom: 80px;
+}
+.venue{
+    margin-bottom: 40px;
+}
+.rightColumn{
+    width: 10%;
+    display: flex;
+}
+
+img{
+    width: 500%;
+    height: 700px;
+}
+.button {
+    margin-top: 20px;
+  }
+.button{
+    display: inline-block;
+  padding: 10px 50px;
+  background: orange;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+.button a:hover {
+    background: black;
+    color: orange;
+  }
+    
+
+
+
