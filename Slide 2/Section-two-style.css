@@ -1,0 +1,25 @@
+*{
+    
+    
+}
+.Top-Part{
+    display: flex;
+    color: white;
+    padding: 2%;
+}
+
+body{
+    background-color: #6D9773;
+}
+.heading{
+    font-size: 30px;
+}
+.paragraph{
+    font-size: 25px;
+}
+img{
+    width: 1200px;
+    align-items: center;
+    align-self: center;
+    
+}
